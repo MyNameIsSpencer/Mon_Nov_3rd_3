@@ -10,10 +10,10 @@ class Products
     @name = name
     @base_price = base_price
     @tax_rate = @@tax_money
-
+    @total_price = price_total
   end
 
-  
+
   # def create(name, base_price)
   #   new_product = Products(name, base_price)
   #   return new_product
